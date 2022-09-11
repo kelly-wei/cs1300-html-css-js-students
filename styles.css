@@ -5,12 +5,14 @@
 .gallery-item-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
   display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  justify-content: space-around;
-
+  justify-content: space-between;
 }
 
 .gallery-item{
-  display: flex;
-  width: 100 px;
+  width: 100px;
+  height: auto;
 }
